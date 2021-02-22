@@ -6,3 +6,5 @@ metadata:
 spec:
   podSelector:
     matchLabels: {}
+  ingress: []
+  egress: []
