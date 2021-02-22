@@ -7,4 +7,6 @@ spec:
   podSelector:
     matchLabels:
       name: rancher-demo
+  policyTypes:
+  - Egress
   egress: []
