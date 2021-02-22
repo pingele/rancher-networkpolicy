@@ -1,0 +1,10 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: access-rancher-demo
+spec:
+  podSelector:
+    matchLabels:
+      name: rancher-demo
+  ingress:
+  - {}
